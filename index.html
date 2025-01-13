@@ -2,42 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <title>BLOGS BY SUNIL DHARAJIYA</title>
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Blog</h1>
-    </header>
-
+<header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="http://sunildharajiya.netlify.app">About</a>
-        <a href="contact.html">Contact</a>
+       <a href = "index.html">HOME</a>
+       <a href = "http://sunildharajiya.netlify.app" target = "_blank">ABOUT</a>
     </nav>
+    <hr>
+    <img src="Img/banner.png" alt="blogs by sunil" width = "100%">
+    <hr color = "white">
+</header>
 
-    <div class="container" id="blog-posts">
-        <div class = "card" data-link="blogs/Mdn/mdn.html">
-        <img src="blogs/Mdn/mdn_logo.png" alt="image">
-        <div class= "card-content" >
-        <h2>MDN WEB DOCS</h2>
-        <p>Explore the MDN Web Docs blog for the latest web development insights, tutorials, and updates.</p>
-        </div>
-        </div>
-        <div class = "card" data-link="blogs/Http_vs_https/http_vs_https.html">
-        <img src="blogs/Http_vs_https/httpvshttps.png" alt="image">
-        <div class= "card-content">
-        <h2>HTTP VS HTTPS</h2>
-        <p>Learn the key differences between HTTP and HTTPS, their roles in web security, and why switching to HTTPS is essential for protecting user data, boosting SEO, and improving trust on your website</p>
-        </div>
+<main>
+    <div class="main">
+        <!-- card 1 -->
+        <div class="card" data-link = "blogs/Mdn/mdn.html">
+            <img src="blogs/Mdn/mdn.png" alt="thumbnail">
+            <div class="card-main">
+                <h2> MDN NETWORK</h2>
+                <p>Explore the MDN Web Docs blog for the latest web development insights, tutorials, and updates.</p>
+            </div>
         </div>
     </div>
-    
-    <footer>
-        <p>&copy; 2025 sunil dharajiya. All rights reserved.</p>
-    </footer>
-   <script src = "index.js"></script>
+</main>
+
+<footer>
+    <section class="contact-me">
+            <h2>Contact me</h2>
+   <p>email : sunildharajiyablack@gmail.com</p>
+               <br>
+               <ul>
+                   <li><a href = "https://github.com/Sunildharajiya" target="_blank"><img src="Img/GitHub-logo.png" alt="" class = "smidia-github"></a></li>
+                   <li><a href = "" target="_blank"><img src="Img/240px-LinkedIn_logo_initials.png" alt="" class = "smidia"></a></li>
+                   <li><a href = "https://www.instagram.com/_sunil_d._" target="_blank"><img src="Img/640px-Instagram_logo_2022.svg.png" alt="" class = "smidia"></a></li>
+                   <li><a href = "https://x.com/_sunil_d_" target="_blank"><img src="Img/768px-X_logo.jpg" alt="" class = "smidia"></a></li>
+                   <li><a href = "https://www.facebook.com/share/2NgSSgZEGkGWEoN1/" target="_blank"><img src="Img/facebook-logo-2019.png" alt="" class = "smidia"></a></li>
+               </ul>
+        </section>
+        <hr>
+        <section class="leave-comment">
+        <h2>leave comment</h2>
+      <form action="https://formsubmit.co/sunildharajiyablack@gmail.com" method="POST" />   
+     <input type="text" name="name" required
+     placeholder = "your full name">
+     <input type="input" name="comment" required placeholder="leave your comment here">
+     <button type="submit">Send</button>
+</form>
+</section>
+<hr>
+<section class= "main-f">
+    &copy; 2025 by Sunil dharajiya 
+</section>
+</footer>
+
+<script src = "index.js"></script>
 </body>
 </html>
-
