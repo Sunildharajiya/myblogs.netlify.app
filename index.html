@@ -2,37 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BLOGS BY SUNIL DHARAJIYA</title>
+    <title>sunil dharajiya - portfolio</title>
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-<header>
-    <nav>
-       <a href = "index.html">HOME</a>
-       <a href = "http://sunildharajiya.netlify.app" target = "_blank">ABOUT</a>
-    </nav>
-    <hr>
-    <img src="Img/banner.png" alt="blogs by sunil" width = "100%">
-    <hr color = "white">
-</header>
+    <header>
+        <nav>
+            <ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="blog.html">BLOGS</a></li>
+            </ul>
+            <hr>
+        </nav>
+        <div class="profile">
+        <img src="Img/profilepic.png" alt="sunildharajiya">
+        <h1><span>SUNIL</span> DHARAJIYA</h1>
+        </div>
+        
+    </header>
+    <main>
+        <section class="skills">
+            <h2>My skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JAVASCRIPT</li>
+                <li>WEB DESIGN</li>
+                <li>GRAPHICS DESIGN</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="about-me">
+            <h2>About me</h2>
+            <p>Hello! My name is Sunil Dharajiya, a web design expert and beginner web developer from Ahmedabad, Gujarat. With a solid foundation in HTML and CSS, I’m currently mastering JavaScript to bring dynamic functionality to my projects.</p>
 
-<main>
-    <div class="main">
-        <!-- card 1 -->
-        <div class="card" data-link = "blogs/Mdn/mdn.html">
-            <img src="blogs/Mdn/mdn.png" alt="thumbnail">
-            <div class="card-main">
-                <h2> MDN NETWORK</h2>
-                <p>Explore the MDN Web Docs blog for the latest web development insights, tutorials, and updates.</p>
-            </div>
+<p>My goal is to create impactful web solutions that merge creativity and functionality. I believe in continuous learning and sharing my progress to inspire others on similar journeys.
+</p>
+        </section>
+        <hr>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+  <img src="Img/project1.png" alt="Project Thumbnail" class="project-image" />
+  <div class="project-details">
+    <h3 class="project-title">blog website</h3>
+    <p class="project-description">
+     this is very baisic blog website to write my opinion.
+    </p>
+    <a href="https://github.com/your-repo" target="_blank" class="project-link">GITHUB</a>
+    <a href="http://blogsbysunil.netlify.app" target="_blank" class="project-link">WEB VIEW</a><br>
+    <a href="" class="project-link">ABOUT</a>
+  </div>
+</div>
+
+        </section>
+        <hr>
+        <section class="blogs">
+            <h2>Blog</h2>
+            <div class= "layout">
+                <div class="card">
+        <img src="blogs/Mdn/mdn_logo.png" alt="mdn Image">
+        <div class="card-content">
+            <h3>Mozilla Developer Network (MDN)</h3>
+            <p>Explore the MDN Web Docs blog for the latest web development insights, tutorials, and updates. Learn about new features, best practices, and tools to enhance your web development journey.</p>
+            <a href="blogs/Mdn/mdn.html" class="read-more">Read More</a>
         </div>
     </div>
-</main>
-
-<footer>
-    <section class="contact-me">
+    <div class="card">
+        <img src="blogs/Http_vs_https/httpvshttps.png" alt=" Image">
+        <div class="card-content">
+            <h3>Understanding HTTP and HTTPS: A Guide to Web Protocols</h3>
+            <p>Learn the key differences between HTTP and HTTPS, their roles in web security, and why switching to HTTPS is essential for protecting user data, boosting SEO, and improving trust on your website</p>
+            <a href="blogs/Http_vs_https/http_vs_https.html" class="read-more">Read More</a>
+        </div>
+    </div>
+    </div>
+        </section>
+        <hr>
+        <section class="vidios">
+            <h2>Vidios</h2>
+        </section>
+        <hr>
+        <section class="contact-me">
             <h2>Contact me</h2>
-   <p>email : sunildharajiyablack@gmail.com</p>
+               <ul>
+                   <li><a href="">email : sunildharajiyablack@gmail.com</a></li>
+               </ul>
                <br>
                <ul>
                    <li><a href = "https://github.com/Sunildharajiya" target="_blank"><img src="Img/GitHub-logo.png" alt="" class = "smidia-github"></a></li>
@@ -51,13 +106,13 @@
      <input type="input" name="comment" required placeholder="leave your comment here">
      <button type="submit">Send</button>
 </form>
-</section>
-<hr>
-<section class= "main-f">
-    &copy; 2025 by Sunil dharajiya 
-</section>
-</footer>
 
-<script src = "index.js"></script>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        &copy; all rights are resivred by sunil dharajiya 
+    </footer>
+    <script src = "script.js"></script>
 </body>
 </html>
